@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Define the styles for the navigation bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #4c72f1;
+            overflow: hidden;
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        a.navlink {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        /* Different border styles for each navigation item */
+        #solid {
+            border-style: solid;
+        }
+
+        .dotted{
+            border-style: dotted;
+        }
+
+        .double{
+            border-style: double;
+        }
+
+        .dashed{
+            border-style: dashed;
+        }
+
+        .groove{
+            border-style: groove;
+        }
+
+        /* Change text color on hover */
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- Create the navigation bar -->
+    <ul class="navbar">
+        <li class="navitem"><a id="solid" class="navlink solid" href="#">Home</a></li>
+        <li class="navitem"><a class="navlink dotted" href="#">About Us</a></li>
+        <li class="navitem"><a class="navlink double" href="#">Contact</a></li>
+        <li class="navitem"><a class="navlink dashed" href="#">Blog</a></li>
+        <li class="navitem"><a class="navlink groove" href="#">Login</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Bar</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      ul.navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #4b6ee2;
+        overflow: hidden;
+      }
+
+      li.navitem {
+        float: left;
+      }
+
+      a.navlink {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+      }
+
+      /* Change text color on hover */
+      a.navlink:hover {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Create the navigation bar -->
+    <ul class="navbar">
+      <li class="navitem"><a class="navlink" href="#">Home</a></li>
+      <li class="navitem"><a class="navlink" href="#">About Us</a></li>
+      <li class="navitem"><a class="navlink" href="#">Contact</a></li>
+      <li class="navitem"><a class="navlink" href="#">Blog</a></li>
+      <li class="navitem"><a class="navlink" href="#">Login</a></li>
+    </ul>
+  </body>
+</html>
